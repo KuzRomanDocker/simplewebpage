@@ -10,7 +10,6 @@ The web page uses basic HTML tags for structure, CSS for basic styling (this mig
 
 ### HTML Comments
 HTML comments are used to annotate HTML code to help developers understand the structure and purpose of various elements without affecting the rendering of the page. These comments are enclosed in `<!--` and `-->` tags. For example:
-```html
 <!-- This is an HTML comment -->
 
 ### JavaScript Comments
