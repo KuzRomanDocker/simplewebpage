@@ -1,7 +1,11 @@
 <HTML>
 <HEAD>
-<TITLE>ADV-IT</TITLE>
+<TITLE>Simple_Web_Page</TITLE>
 <SCRIPT LANGUAGE="JavaScript">
+/* The Elastic function modifies the spacing between the letters in the <H1> header, creating an "elastic" movement of the text.
+The changes include increasing and decreasing the spacing.
+An infinite animation loop is implemented using setTimeout with a delay of 100 ms.
+*/
       var sizes = new Array(0,1,2,4,8,10,12,14);
       sizes.pos = 0;
 
@@ -16,13 +20,16 @@ setTimeout('Elastic()',100)
 }
 
 </SCRIPT>
-<BODY  background="kamni.jpg"  onLoad=Elastic()>
+<!-- Main body of the web page with a specified background image and a call to the Elastic function on page load -->
+<BODY  background="background.jpg"  onLoad=Elastic()>
 <CENTER>
-<font color="white"><h2>Hello From Simple WebPage! v2</h2>
+<!-- Centering page content -->
+<font color="white"><h2>Simple WebPage!</h2>
+<!-- First level heading with yellow text color, 'elastic' id for use in JavaScript, and text centering -->
 <font color="yellow"><H1 ID="elastic" ALIGN="Center">DevOps Engineering</H1>
 <br>
-<img src="image2.jpg" width=900>
+<!-- Insert image with given width -->
+<img src="laptop.jpg" width=900>
 <br>
-
 </body>
 </HTML>
